@@ -4,6 +4,10 @@ This library provides an interface to the [Transmission](http://transmissionbt.c
 bit-torrent downloader. It provides means to get and remove torrents from
 the downloader as well as adding new torrents to the download queue.
 
+## What's new?
+1. Fix PHP7.2 Compatible
+2. Use a longer timeout
+
 ## Installation
 
 Installation is easy using [Composer](https://getcomposer.org):
