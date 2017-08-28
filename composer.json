@@ -1,13 +1,13 @@
 {
-    "name": "kleiram/transmission-php",
+    "name": "kslr/transmission-php",
     "description": "PHP Transmission client",
     "keywords": ["transmission", "torrent", "download"],
     "type": "library",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Ramon Kleiss",
-            "email": "ramon@cubilon.nl"
+            "name": "Kslr",
+            "email": "hi@kslr.org"
         }
     ],
     "require": {

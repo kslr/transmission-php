@@ -63,8 +63,7 @@ class ResponseValidator
 
         foreach ($fields as $field) {
             if (isset($response->arguments) &&
-                isset($response->arguments->$field) &&
-                count($response->arguments->$field)) {
+                isset($response->arguments->$field)) {
                 return $response->arguments->$field;
             }
         }
