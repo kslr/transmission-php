@@ -74,7 +74,7 @@ class Client
     {
         $this->token    = null;
         $this->client   = new Curl();
-        $this->client->setTimeout(10);
+        $this->client->setTimeout(30);
 
         if ($host) $this->setHost($host);
         if ($port) $this->setPort($port);
