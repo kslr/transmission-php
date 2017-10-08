@@ -7,6 +7,7 @@ the downloader as well as adding new torrents to the download queue.
 ## What's new?
 1. Fix PHP7.2 Compatible
 2. Use a longer timeout
+3. Hacky fix so that file size on 32bit PHP still works
 
 ## Installation
 
@@ -15,7 +16,7 @@ Installation is easy using [Composer](https://getcomposer.org):
 ```json
 {
     "require": {
-        "kslr/transmission-php": "master"
+        "ohnotnow/transmission-php": "master"
     }
 }
 ```
