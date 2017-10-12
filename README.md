@@ -16,7 +16,7 @@ Installation is easy using [Composer](https://getcomposer.org):
 ```json
 {
     "require": {
-        "ohnotnow/transmission-php": "master"
+        "kslr/transmission-php": "master"
     }
 }
 ```
