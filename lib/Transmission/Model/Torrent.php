@@ -145,7 +145,7 @@ class Torrent extends AbstractModel
      */
     public function setSize($size)
     {
-        $this->size = (integer) $size;
+        $this->size = $size;
     }
 
     /**
